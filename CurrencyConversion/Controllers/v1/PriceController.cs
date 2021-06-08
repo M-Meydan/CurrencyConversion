@@ -1,14 +1,10 @@
 ﻿using CurrencyConversion.Errors;
 using CurrencyConversion.Models;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using Swashbuckle.AspNetCore.Annotations;
-using Microsoft.Extensions.Logging;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Text.Json;
-using System.Collections.Generic;
 using CurrencyConversion.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Swashbuckle.AspNetCore.Annotations;
+using System.Threading.Tasks;
 
 namespace CurrencyConversion.Controllers.v1
 {
