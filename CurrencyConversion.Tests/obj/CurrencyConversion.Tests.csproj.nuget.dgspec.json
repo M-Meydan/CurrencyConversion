@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion.Tests\\CurrencyConversion.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion.Tests\\CurrencyConversion.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion.Tests\\CurrencyConversion.Tests.csproj",
+        "projectName": "CurrencyConversion.Tests",
+        "projectPath": "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion.Tests\\CurrencyConversion.Tests.csproj",
+        "packagesPath": "C:\\Users\\meyda\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\meyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion\\CurrencyConversion.csproj": {
+                "projectPath": "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion\\CurrencyConversion.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion\\CurrencyConversion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion\\CurrencyConversion.csproj",
+        "projectName": "CurrencyConversion",
+        "projectPath": "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion\\CurrencyConversion.csproj",
+        "packagesPath": "C:\\Users\\meyda\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\TDD\\Trainline\\CurrencyConversion\\CurrencyConversion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\meyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
