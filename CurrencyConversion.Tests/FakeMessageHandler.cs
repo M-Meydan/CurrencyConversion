@@ -9,10 +9,10 @@ namespace CurrencyConversion.Tests
         ///Helper class for mocking the MessageHandler dependency of HttpClient
         public abstract class FakeMessageHandler : HttpMessageHandler
         {
-            protected sealed override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request,
-                CancellationToken cancellationToken)
+            protected sealed override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
             {
-                return DoSendAsync(request);
+                var response = DoSendAsync(request);
+                return response;
             }
 
             public abstract Task<HttpResponseMessage> DoSendAsync(HttpRequestMessage request);
